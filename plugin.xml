@@ -1,0 +1,82 @@
+<plugin name='cdm' version='1.2.0' grailsVersion='1.2.0&gt; *'>
+  <author>Ralf Bensmann</author>
+  <authorEmail>grails@bensmann.com</authorEmail>
+  <title>Cdm plugin.</title>
+  <description>Data structures needed for company administration.</description>
+  <documentation>http://grails.org/cdm+Plugin</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>CdmBootStrap</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>com.bensmann.cdm.Base</resource>
+    <resource>com.bensmann.cdm.Client</resource>
+    <resource>com.bensmann.cdm.Company</resource>
+    <resource>com.bensmann.cdm.CompanyRole</resource>
+    <resource>com.bensmann.cdm.CompanyType</resource>
+    <resource>com.bensmann.cdm.Person</resource>
+    <resource>com.bensmann.cdm.PersonRole</resource>
+    <resource>com.bensmann.cdm.PersonType</resource>
+    <resource>com.bensmann.cdm.Quantity</resource>
+    <resource>com.bensmann.cdm.Reminder</resource>
+    <resource>com.bensmann.cdm.Unit</resource>
+    <resource>com.bensmann.cdm.acct.AcctCompany</resource>
+    <resource>com.bensmann.cdm.acct.AcctInvoice</resource>
+    <resource>com.bensmann.cdm.acct.AcctItem</resource>
+    <resource>com.bensmann.cdm.acct.AcctOffer</resource>
+    <resource>com.bensmann.cdm.acct.AcctOrder</resource>
+    <resource>com.bensmann.cdm.acct.Bank</resource>
+    <resource>com.bensmann.cdm.acct.Invoice</resource>
+    <resource>com.bensmann.cdm.acct.Offer</resource>
+    <resource>com.bensmann.cdm.acct.Order</resource>
+    <resource>com.bensmann.cdm.acct.PaymentTarget</resource>
+    <resource>com.bensmann.cdm.acct.PaymentType</resource>
+    <resource>com.bensmann.cdm.acct.TaxInformation</resource>
+    <resource>com.bensmann.cdm.crm.Address</resource>
+    <resource>com.bensmann.cdm.crm.AddressType</resource>
+    <resource>com.bensmann.cdm.crm.BankAccount</resource>
+    <resource>com.bensmann.cdm.crm.ContactType</resource>
+    <resource>com.bensmann.cdm.crm.Customer</resource>
+    <resource>com.bensmann.cdm.crm.CustomerType</resource>
+    <resource>com.bensmann.cdm.crm.EmailAddress</resource>
+    <resource>com.bensmann.cdm.crm.Messenger</resource>
+    <resource>com.bensmann.cdm.crm.MessengerType</resource>
+    <resource>com.bensmann.cdm.crm.Sector</resource>
+    <resource>com.bensmann.cdm.dms.Email</resource>
+    <resource>com.bensmann.cdm.mail.MailAccount</resource>
+    <resource>com.bensmann.cdm.mail.MailAddressEntry</resource>
+    <resource>com.bensmann.cdm.mail.MailAlias</resource>
+    <resource>com.bensmann.cdm.mail.MailDomain</resource>
+    <resource>com.bensmann.cdm.mail.MailRouting</resource>
+    <resource>com.bensmann.cdm.product.Price</resource>
+    <resource>com.bensmann.cdm.product.Product</resource>
+    <resource>com.bensmann.cdm.product.ProductType</resource>
+    <resource>com.bensmann.cdm.product.VatPercent</resource>
+    <resource>com.bensmann.cdm.project.Project</resource>
+    <resource>com.bensmann.cdm.project.Ticket</resource>
+    <resource>com.bensmann.cdm.project.TicketLog</resource>
+    <resource>com.bensmann.cdm.project.TicketLogType</resource>
+    <resource>com.bensmann.cdm.project.TicketPriority</resource>
+    <resource>com.bensmann.cdm.project.TicketState</resource>
+    <resource>com.bensmann.cdm.project.TicketType</resource>
+    <resource>com.bensmann.cdm.project.TimeSheetEntry</resource>
+    <resource>com.bensmann.cdm.purchase.Supplier</resource>
+    <resource>com.bensmann.cdm.purchase.SupplierType</resource>
+    <resource>com.bensmann.cdm.sale.Campaign</resource>
+    <resource>com.bensmann.cdm.sale.CampaignType</resource>
+    <resource>com.bensmann.cdm.system.SystemLog</resource>
+    <resource>com.bensmann.cdm.travel.TravelPlan</resource>
+    <resource>com.bensmann.cdm.voip.VoipAccount</resource>
+    <resource>com.bensmann.cdm.voip.VoipFaxJob</resource>
+    <resource>com.bensmann.cdm.voip.VoipNotify</resource>
+    <resource>com.bensmann.cdm.ClientService</resource>
+    <resource>com.bensmann.cdm.PersonService</resource>
+    <resource>com.bensmann.cdm.acct.AccountingService</resource>
+    <resource>com.bensmann.cdm.project.ProjectService</resource>
+  </resources>
+  <dependencies>
+    <plugin name='core' version='1.3.1' />
+    <plugin name='hibernate' version='1.3.1' />
+  </dependencies>
+  <behavior />
+</plugin>
